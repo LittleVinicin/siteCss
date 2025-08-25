@@ -1,0 +1,48 @@
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    background-image: url(imagens/fundo.png);
+    background-repeat: repeat;
+}
+
+body {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+p > img {
+    margin: 5px;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.links {
+    background-color: rgb(162, 162, 162);
+    padding: 20px;
+    text-align: center;
+}
+
+.subcontainer {
+    width: min-content;
+}
+
+footer {
+    font-style:oblique;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+
+
